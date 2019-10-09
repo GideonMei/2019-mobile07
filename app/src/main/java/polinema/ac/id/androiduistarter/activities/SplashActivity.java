@@ -21,7 +21,7 @@ public class SplashActivity extends AppCompatActivity {
                     //kode module
 //                startActivity(new Intent(SplashActivity.this,WelcomeActivity.class));
 //                finish();
-                Intent intent = new Intent(SplashActivity.this,MainActivity.class);
+                Intent intent = new Intent(SplashActivity.this,WelcomeActivity.class);
                 startActivity(intent);
                 finish();
             }
